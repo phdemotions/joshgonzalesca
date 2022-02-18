@@ -2,13 +2,12 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: #404040;
     background-color: whitesmoke;
-    margin: 0;
     padding: 0;
+    max-width: 800px; 
+	  margin: 0 auto !important; 
+	  float: none !important; 
   }
    
-h1 {
-
-}
 h2 {
   font-size: 20px;
 }
@@ -29,7 +28,6 @@ a:hover {
     color: rgb(29, 28, 28);
 }
 
-
 #home-button {
   color: #404040;
   font-size: 3em;
@@ -40,10 +38,6 @@ a:hover {
   padding: 50px 0px 0px;
 }
 
-#main p {
-  font-size: 12px;
-  
-}
 
 .topnav {
   margin: 5px 0px;
