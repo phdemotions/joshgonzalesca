@@ -141,3 +141,58 @@
     text-align:right;
   }
   
+
+  .topnav ul {
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  }
+
+
+  .topnav
+  {
+    background-color: rgb(46, 122, 181);
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+
+.topnav ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+  
+  .topnav li {
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    
+    text-decoration: none;
+  }
+  
+  .topnav a {
+    color: whitesmoke;
+    padding: 12px 12px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    text-align: center;
+    padding: 2em;
+    text-decoration: none;
+}

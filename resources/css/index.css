@@ -2,7 +2,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: #404040;
     background-color: whitesmoke;
-    padding: 0;
+    padding: 0 2px;
     max-width: 800px; 
 	  margin: 0 auto !important; 
 	  float: none !important; 
@@ -28,12 +28,19 @@ a:hover {
     color: rgb(29, 28, 28);
 }
 
+hr {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #home-button {
   color: #404040;
   font-size: 3em;
   font-weight: bold;
+  
 }
-#main {
+#main-title {
   text-align: center;
   padding: 50px 0px 0px;
 }
@@ -114,10 +121,17 @@ a:hover {
 
 
 
+.bottom {
+  text-align: center;
+  bottom: 10px;
+}
 
-
-
-
+.footer hr {
+}
+.footer a {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 #small-profile {
   height: 10em;
@@ -131,7 +145,7 @@ a:hover {
 
 
 
-.banner{
+.content{
   text-align: center;
   padding: 2em;
 }
